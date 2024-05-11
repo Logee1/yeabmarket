@@ -1,0 +1,106 @@
+*{
+  
+   background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav{
+   
+    display: block;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+   text-align: center;
+   align-items: center;
+    list-style: none;
+}
+.nav h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #66CDAA;
+}
+.nav span{
+    color: white;
+}
+.nav li{
+    margin-left: 5%;
+}
+.nav a{
+    
+    text-decoration: none;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px; 
+}
+.body{
+
+}
+.card{
+    margin-top: 15px;
+    margin-left: 4%;
+    background-color: #66CDAA;
+    padding: 2%;
+    
+    border-radius: 15px;
+    width: 90%;
+    text-align: center;
+   
+    
+}
+.card img{
+    width: 100%;
+    
+    border-radius: 15px;
+}
+.card h1{
+    color: white;
+    font-size: 45px;
+    font-weight: lighter;
+}
+.card h3{
+    color: red;
+    font-size: 25px;
+    font-weight: lighter;
+    background-color: black;
+    border-radius: 15px;
+    
+}
+.card a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px;
+    width: 25px;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+
+}
+.card a:hover ~ .card{
+border-color: blue;
+}
+
+.card video{
+    width: 100%;
+}
+#card1{
+    position: absolute;
+    display: none;
+}
+.footer{
+    background-color: #66CDAA;
+    color: black;
+    margin-top: 70px;
+}
+.footer ul{
+    list-style: none;
+    background-color: #66CDAA;
+    
+}
+ .footer h1,.footer h3{
+    background-color: #66CDAA;
+}
+.footer h1{
+    color: black;
+}
+.video video{
+    width: 100%;}
